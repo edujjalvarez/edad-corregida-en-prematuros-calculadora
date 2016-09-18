@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ar.com.idearsoft.mobile.android.edadcorregida.ResultadoActivity"
+    tools:showIn="@layout/activity_resultado">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:background="@drawable/relative_layout_border"
+            android:id="@+id/activity_resultado_relativelayout_edad_cronologica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_cronologica_titulo"
+                android:layout_alignParentTop="true"
+                android:text="Edad Cronológica"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+
+            <!-- Edad Cronológica en Años -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_cronologica_anios"
+                android:text="Años: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_cronologica_titulo"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_cronologica_anios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_cronologica_anios"
+                android:layout_below="@+id/activity_resultado_textview_edad_cronologica_titulo"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Meses -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_cronologica_meses"
+                android:text="Meses: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_cronologica_anios"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_cronologica_meses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_cronologica_meses"
+                android:layout_below="@+id/activity_resultado_edad_cronologica_anios"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Semanas -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_cronologica_semanas"
+                android:text="Semanas: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_cronologica_meses"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_cronologica_semanas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_cronologica_semanas"
+                android:layout_below="@+id/activity_resultado_edad_cronologica_meses"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Días -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_cronologica_dias"
+                android:text="Días: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_cronologica_semanas"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_cronologica_dias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_cronologica_dias"
+                android:layout_below="@+id/activity_resultado_edad_cronologica_semanas"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/relative_layout_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_below="@+id/activity_resultado_relativelayout_edad_cronologica"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_corregida_titulo"
+                android:layout_alignParentTop="true"
+                android:textSize="24sp"
+                android:text="Edad Corregida"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                />
+
+            <!-- Edad Cronológica en Años -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_corregida_anios"
+                android:text="Años: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_corregida_titulo"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_corregida_anios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_corregida_anios"
+                android:layout_below="@+id/activity_resultado_textview_edad_corregida_titulo"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Meses -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_corregida_meses"
+                android:text="Meses: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_corregida_anios"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_corregida_meses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_corregida_meses"
+                android:layout_below="@+id/activity_resultado_edad_corregida_anios"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Semanas -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_corregida_semanas"
+                android:text="Semanas: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_corregida_meses"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_corregida_semanas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_corregida_semanas"
+                android:layout_below="@+id/activity_resultado_edad_corregida_meses"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+            <!-- Edad Cronológica en Días -->
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_resultado_textview_edad_corregida_dias"
+                android:text="Días: "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/activity_resultado_textview_edad_corregida_semanas"
+                />
+
+            <TextView
+                android:id="@+id/activity_resultado_edad_corregida_dias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/activity_resultado_textview_edad_corregida_dias"
+                android:layout_below="@+id/activity_resultado_edad_corregida_semanas"
+                android:text=""
+                android:textSize="16sp"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

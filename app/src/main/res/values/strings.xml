@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Edad Corregida en Prematuros</string>
+    <string name="action_settings">Información</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Global -->
+    <string name="global_info_app_titulo">Información</string>
+    <string name="global_info_app_texto">Calculadora de Edad Corregida en Prematuros\n\nVersión: 1.0\n\nFecha de última modificación: 13/09/2016\n\nReportar bugs (errores) a: edujjalvarez@gmail.com\n</string>
+
+    <!-- Splash Activity -->
+    <string name="activity_splash_titulo1">Edad Corregida</string>
+    <string name="activity_splash_titulo2">en Prematuros</string>
+    <string name="activity_splash_titulo3">Calculadora</string>
+
+    <!-- Calculadora Activity -->
+    <string name="activity_calculadora_mensaje_parametros">Ingrese los parámetros solicitados y presione el botón para calcular la \"Edad Corregida\".</string>
+    <string name="activity_calculadora_parametro_fecha_nacimiento">Fecha de Nacimiento:</string>
+    <string name="activity_calculadora_parametro_fecha_control">Fecha de Control:</string>
+    <string name="activity_calculadora_parametro_edad_gestacional">Edad Gestacional al Nacer (20 - 36):</string>
+    <string name="activity_calculadora_parametro_termino_gestacional">Termino Gestacional (37 - 40):</string>
+    <string name="activity_calculadora_ingrese_edad_gestacional">Ingrese EG...</string>
+
+</resources>

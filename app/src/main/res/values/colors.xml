@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color del ActionBar -->
+    <color name="colorPrimary">#53BA9D</color>
+    <!-- Color de la barra de notificaciones -->
+    <color name="colorPrimaryDark">#42947D</color>
+    <!-- Color del Float Button y los EditText cuando tienen el focus. -->
+    <color name="colorAccent">#53BA9D</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Splash Activity -->
+    <color name="activity_splash_blanco">#ffffff</color>
+
+</resources>
